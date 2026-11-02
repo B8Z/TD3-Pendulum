@@ -1,0 +1,41 @@
+{
+  "left": "train_20261102T020701_889706Z",
+  "right": "check_20261102T044528_950292Z_seed11_normal",
+  "scope": "common training prefix",
+  "training_steps_checked": 2000,
+  "protocol_mismatches": [],
+  "episodes": {
+    "same_records": true,
+    "records_checked": 10,
+    "max_numeric_difference": 0.0,
+    "matching_end_flags": true,
+    "passed": true
+  },
+  "evaluations": {
+    "same_records": true,
+    "records_checked": 10,
+    "max_numeric_difference": 0.0,
+    "matching_end_flags": true,
+    "passed": true
+  },
+  "final_actor_exactly_equal": null,
+  "software_versions": {
+    "python": {
+      "left": "3.13.17",
+      "right": "3.13.17"
+    },
+    "gymnasium": {
+      "left": "1.4.0",
+      "right": "1.4.0"
+    },
+    "numpy": {
+      "left": "2.5.4",
+      "right": "2.5.4"
+    },
+    "torch": {
+      "left": "2.15.0+cpu",
+      "right": "2.15.0+cpu"
+    }
+  },
+  "passed": true
+}

@@ -1,0 +1,37 @@
+{
+  "environment": "Pendulum-v1",
+  "seed": 11,
+  "total_steps": 2000,
+  "warmup_steps": 1000,
+  "batch_size": 128,
+  "exploration_std": 0.2,
+  "evaluate_every": 2000,
+  "evaluation_seeds": [
+    201,
+    202,
+    203,
+    204,
+    205
+  ],
+  "replay_capacity": 50000,
+  "action_seed": 12,
+  "exploration_seed": 13,
+  "replay_seed": 14,
+  "td3": {
+    "hidden_size": 64,
+    "gamma": 0.99,
+    "target_noise_std": 0.4,
+    "noise_clip": 1.0,
+    "critic_learning_rate": 0.0003,
+    "actor_learning_rate": 0.0003,
+    "policy_delay": 2,
+    "tau": 0.005
+  },
+  "python": "3.13.17",
+  "gymnasium": "1.4.0",
+  "numpy": "2.5.4",
+  "torch": "2.15.0+cpu",
+  "diagnostics": false,
+  "log_format_version": 2,
+  "implementation": "consolidated-v2"
+}

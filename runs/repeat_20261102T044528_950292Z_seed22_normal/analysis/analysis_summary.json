@@ -1,0 +1,56 @@
+{
+  "run_name": "repeat_20261102T044528_950292Z_seed22_normal",
+  "seed": 22,
+  "training_steps": 20000,
+  "mean_evaluation_return": -170.0756587832339,
+  "case_sd": 136.45234473473138,
+  "mean_angle_mae_last_2s_deg": 2.0528639442594345,
+  "replay_matches_log": true,
+  "cases": [
+    {
+      "seed": 201,
+      "recorded_return": -359.8225431450018,
+      "replay_return": -359.8225431450019,
+      "return_difference": -5.684341886080802e-14,
+      "angle_mae_last_2s_deg": 2.0528639046943145,
+      "max_speed_last_2s_rad_s": 6.490937920489159e-08,
+      "mean_torque_last_2s_nm": -0.1791078433394432
+    },
+    {
+      "seed": 202,
+      "recorded_return": -123.72885802258176,
+      "replay_return": -123.7288580225817,
+      "return_difference": 5.684341886080802e-14,
+      "angle_mae_last_2s_deg": 2.0528640660783575,
+      "max_speed_last_2s_rad_s": 6.93506763127516e-08,
+      "mean_torque_last_2s_nm": -0.17910785749554634
+    },
+    {
+      "seed": 203,
+      "recorded_return": -120.52569162421449,
+      "replay_return": -120.5256916242144,
+      "return_difference": 8.526512829121202e-14,
+      "angle_mae_last_2s_deg": 2.052863915106188,
+      "max_speed_last_2s_rad_s": 5.77560719250414e-08,
+      "mean_torque_last_2s_nm": -0.1791078470647335
+    },
+    {
+      "seed": 204,
+      "recorded_return": -1.7711499844195486,
+      "replay_return": -1.7711499844195495,
+      "return_difference": -8.881784197001252e-16,
+      "angle_mae_last_2s_deg": 2.0528639099002515,
+      "max_speed_last_2s_rad_s": 3.885122268343366e-08,
+      "mean_torque_last_2s_nm": -0.17910783588886262
+    },
+    {
+      "seed": 205,
+      "recorded_return": -244.53005113995187,
+      "replay_return": -244.53005113995192,
+      "return_difference": -5.684341886080802e-14,
+      "angle_mae_last_2s_deg": 2.052863925518062,
+      "max_speed_last_2s_rad_s": 4.1176456022640195e-08,
+      "mean_torque_last_2s_nm": -0.17910783886909484
+    }
+  ]
+}

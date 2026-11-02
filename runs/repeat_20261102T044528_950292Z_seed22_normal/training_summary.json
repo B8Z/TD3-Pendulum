@@ -1,0 +1,10 @@
+{
+  "completed": true,
+  "seed": 22,
+  "diagnostics": false,
+  "training_steps": 20000,
+  "critic_updates": 19000,
+  "actor_updates": 9500,
+  "target_updates": 9500,
+  "elapsed_seconds": 90.04837139998563
+}
